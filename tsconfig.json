@@ -1,0 +1,28 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "rootDir": "./src",
+    "baseUrl": ".",
+    "declarationDir": "types",
+    "emitDeclarationOnly": true,
+    "types": [
+      "node",
+      "webpack-env",
+    ],
+    "paths": {
+      "terser-webpack-plugin": [
+        "./node_modules/terser-webpack-plugin"
+      ]
+    }
+  },
+  "extends": "@bipboys/typescript-preset/tsconfig.base.json",
+  "include": [
+    "./src/**/*.ts",
+    "index.ts"
+  ],
+  "exclude": [
+    "**/*.test.ts"
+  ],
+}
