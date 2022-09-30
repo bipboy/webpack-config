@@ -1,6 +1,6 @@
 {
   "name": "@bipboys/webpack-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Webpack build config for react ssr apps (from scratch)",
   "author": "Bipboys Dev Team",
   "sideEffects": false,
